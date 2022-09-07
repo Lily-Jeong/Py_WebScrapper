@@ -16,13 +16,12 @@ browser.get(f"{base_url}{keyword}")
 results = []
 soup = BeautifulSoup(browser.page_source, "html.parser")
 job_list = soup.find("ul", class_="jobsearch-ResultsList css-0")
-jobs = job_list.find_all('li', recursive=False)
+jobs = job_list.find_all('li', recursive = False)
 for job in jobs:
     zone = job.find("div", class_="mosaic-zone")
     if zone == None:
         anchor = job.select("h2 a")
-        print(anchor)
-        """
+        #print(anchor)
         title = anchor['aria-label']
         link = anchor['href']
         company = job.find("span", class_="companyName")
@@ -36,4 +35,4 @@ for job in jobs:
     results.append(job_data)
 for result in results:
   print(result, "\n//////////\n")
-    """
+    
