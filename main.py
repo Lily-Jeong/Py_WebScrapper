@@ -4,7 +4,7 @@ app = Flask("JobScrapper")
 
 @app.route('/')
 def home():
-    return 'hey there!'
+    return render_template("home.html")
 
 @app.route("/hello")
 def hello():
