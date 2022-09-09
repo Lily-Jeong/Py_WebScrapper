@@ -2,15 +2,12 @@ from flask import Flask, render_template
 
 app = Flask("JobScrapper")
 
-
-@app.route("/")
+@app.route('/')
 def home():
-    return render_template("home.html", name="lily")
-
+    return 'hey there!'
 
 @app.route("/hello")
 def hello():
     return 'hello you!'
 
-
-app.run("0.0.0.0")
+app.run("127.0.0.1")
