@@ -133,7 +133,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "flask"
-version = "2.2.1"
+version = "2.2.2"
 description = "A simple framework for building complex web applications."
 category = "main"
 optional = false
@@ -144,7 +144,7 @@ click = ">=8.0"
 importlib-metadata = {version = ">=3.6.0", markers = "python_version < \"3.10\""}
 itsdangerous = ">=2.0"
 Jinja2 = ">=3.0"
-Werkzeug = ">=2.2.0"
+Werkzeug = ">=2.2.2"
 
 [package.extras]
 async = ["asgiref (>=3.2)"]
@@ -603,7 +603,7 @@ tqdm = "*"
 
 [[package]]
 name = "werkzeug"
-version = "2.2.1"
+version = "2.2.2"
 description = "The comprehensive WSGI web application library."
 category = "main"
 optional = false
@@ -669,7 +669,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "5d0226f8cad04f85455c43e6a28297d31ee27586cc3ab3691c1925b7f3a5a177"
+content-hash = "7ff5e207329ab36b4caca47ab24f9c92bddc5f272d2ff6ca5b3eff939c4c0052"
 
 [metadata.files]
 aiohttp = []
