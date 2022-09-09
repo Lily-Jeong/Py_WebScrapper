@@ -4,6 +4,7 @@
 <div>
   <ul>
     <li><b>NOVICE!</b> Python 초급자 과정</li>
-    <li>구인구직 사이트 Web 데이터 스크래이핑 구현</li>
+    <li>구인구직 사이트(indeed, weworkremotely, job planet) Web 데이터 스크래이핑 후 csv 파일로 추출</li>
+    <li>Flask 활용</li>
   </ul>
 </div>
