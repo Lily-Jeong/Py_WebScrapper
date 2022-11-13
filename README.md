@@ -1,5 +1,5 @@
 # Py_WebScrapper
-<h3>[노마드코더 프로젝트] Python으로 Web Scrapper 만들기</h3>
+<h3>Python으로 Web Scrapper 만들기</h3>
 <h6>September 1, 2022 ~ September 9, 2022</h6>
 <div>
   <ul>
